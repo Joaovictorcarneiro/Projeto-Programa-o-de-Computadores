@@ -1,6 +1,6 @@
 # Jogo Adedonha (Forca) - Versão Procedural - Projeto Prático
-# Autor: [Seu Nome e do Colega]
-# Data: 2025-06-07
+# Autor: [João Victor Carneiro Cavalcante , Tobias De Souza Feitoza Cardia
+# Data De Atualização: 2025-06-07
 # Requisitos: Python 3, sem bibliotecas externas, sem orientação a objetos
 
 import random
