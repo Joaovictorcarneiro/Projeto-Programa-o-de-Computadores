@@ -1,7 +1,8 @@
 # Jogo Adedonha (Forca) - Versão Procedural - Projeto Prático
-# Autor: [João Victor Carneiro Cavalcante , Tobias De Souza Feitoza Cardia
-# Data De Atualização: 2025-06-07
-# Requisitos: Python 3, sem bibliotecas externas, sem orientação a objetos
+# Autores: João Victor Carneiro Cavalcante e Tobias De Souza Feitoza Cardia
+# Data de atulização: 07/06/2025
+# Versão: 1.0
+# Requisitos: Python 3.x, sem bibliotecas externas, sem uso de POO ou frameworks
 
 import random
 import time
@@ -90,6 +91,8 @@ def iniciar_jogo():
             pontos += 1
         print(f"Pontos atuais: {pontos}")
         again = input("Deseja jogar novamente? (s/n): ").lower()
+        while again not in ['s', 'n']:
+            again = input("Entrada inválida. Digite 's' para sim ou 'n' para não: ").lower()
         if again != 's':
             break
     print(f"\nFim de jogo. Total de pontos: {pontos}. Obrigado por jogar!")
@@ -97,6 +100,6 @@ def iniciar_jogo():
 # Início do programa
 if __name__ == "__main__":
     print("\n====== JOGO DA ADEDONHA (FORCA) ======")
-    print("Autores: [NOME 1] e [NOME 2]")
+    print("Autores: João Victor Carneiro e [Nome do Colega]")
     time.sleep(1)
     iniciar_jogo()
