@@ -100,6 +100,6 @@ def iniciar_jogo():
 # Início do programa
 if __name__ == "__main__":
     print("\n====== JOGO DA ADEDONHA (FORCA) ======")
-    print("Autores: João Victor Carneiro e [Nome do Colega]")
+    print("Autores: João Victor Carneiro e Tobias De Souza Feitoza Cardia")
     time.sleep(1)
     iniciar_jogo()
